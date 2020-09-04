@@ -1,9 +1,13 @@
 .maket{
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
     align-items: flex-end;
-    height: 100vh;
+    flex: 1;
 }
 
 .block{
@@ -27,6 +31,5 @@
 
 .footer{
     background: #55ffff;
-    flex-basis: 100%;
     height: 100px;
 }
